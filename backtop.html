@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.backtop {
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   width: 30px;
+   height: 30px;
+   padding: 10px;
+   background-color: lightgreen;
+   border-radius: 50%;
+   color: white;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+.backtop:hover {
+  /* background: transparent; */
+
+  animation: mymove 1s;
+  animation-iteration-count: 4;
+}
+@keyframes mymove {
+  from {bottom: 10px;}
+  to {bottom: 20px;color:lightgreen;background:transparent;}
+  
+}
+}
+</style>
+</head>
+<body>
+
+<h2>Fixed/Sticky Footer Example</h2>
+<p>The footer is placed at the bottom of the page.</p>
+
+<div class="backtop">
+  <p>  <i class="fa fa-arrow-up" style="font-size:32px;"></i></p>
+</div>
+
+</body>
+</html> 
